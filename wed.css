@@ -1,0 +1,186 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+
+   height: 50px;
+   margin-left: 200px;
+}
+
+ul{
+    list-style:none;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    position:relative;
+    z-index:20;
+    font-size: bold;
+}
+    
+ul li a{
+    text-decoration:none;
+    color:blue;
+    display: block;
+    
+}
+a:hover{
+ color:white;
+ background-color: cyan;
+}
+ul li ul{
+    position:absolute;
+    background-color:white;
+    opacity:0.3;
+    display: block;
+}
+ul li ul li{
+    padding: 10px;
+}
+ul li ul{
+    display:none;
+}
+ul li:hover ul{
+    display:block;
+}
+.color{
+    position: absolute;
+    top:0;
+    z-index: 20;
+    
+}
+.wed{
+margin-top: -100px;
+}
+
+.planners{
+    position: absolute;
+    top:40%;
+    left: 30%;
+}
+.white{
+    color:white;
+    font-size:100px;
+    margin-top: -50px;
+}
+.p{
+    font-size: 50px;
+   
+    color:skyblue;
+}
+.more{
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+    background-color: red;
+    border-radius: 10px;
+}
+.about{
+    color:black;
+    position: absolute;
+    top: 140%;
+}
+.para{
+    margin-top: 150px;
+}
+.read{
+    margin-top: 130px;
+    background-color: red;
+    width:100px;
+    height: 30px;
+    border-radius:10px;
+}
+
+.pics{
+    margin-left: 500px;
+    margin-top: -300px;
+}
+
+
+h3{
+    margin-left: 600px;
+}
+.card{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    background-image:linear-gradient(to bottom right,rgba(145, 28, 28,.4),rgb(54, 54, 138),rgba(102, 33, 33,.5));
+    height: 400px;
+}
+.photo{
+    width:250;
+    height: 300px;
+    background-color: brown;
+    box-shadow:inset 0 0 10px rgb(41, 139, 118) ,inset 0 0 20px rgb(147, 170, 44);
+}
+.card-image{
+height: 150px;
+width:250px;
+background-image: url("plan_img1.jpg");
+
+background-repeat: no-repeat;
+background-size: cover;
+}
+.card-image1{
+    height: 150px;
+    width:250px;
+    background-image: url("honeymoon.jpg");
+    
+    background-repeat: no-repeat;
+background-size: cover;
+}
+.card-image2{
+    height: 150px;
+    width:250px;
+    background-image: url("ring.png");
+    
+background-repeat: no-repeat;
+background-size: cover;
+}
+h4{
+    margin-left: 50px;
+    margin-top: 20px;
+    color:white;
+}
+.order{
+    background-color:purple;
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline:none;
+    text-align: center;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.wedding{
+    padding:10px;
+}
+footer{
+    height: 200px;
+    background-color: rgba(8, 1, 1, 0.5);
+}
+.us{
+    margin-left: 500px;
+}
+.fb{
+    margin-top: 50px;
+    margin-left: 500px; 
+
+}
+.circle{
+    padding: 10px;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: .5;
+}
+@media only screen and (man-width:480px) {
+    .card{
+        width:100px;
+    }
+}
